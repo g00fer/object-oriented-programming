@@ -10,7 +10,16 @@
 #include <iostream>
 #include <memory>
 #include <string>
+#include "game_v2.hpp"
 
+int main()
+{
+    GameV2 game;
+
+    game.init();
+
+}
+#if 0
 int main() {
     Time gameTime;
 
@@ -66,3 +75,4 @@ int main() {
     std::cout << "\n**************\n";
 
 }
+#endif
