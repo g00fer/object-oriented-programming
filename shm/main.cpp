@@ -14,7 +14,11 @@
 
 int main()
 {
-    GameV2 game;
+    constexpr uint32_t DEADLINE  = 10;
+    constexpr uint32_t TARGET_GOLD = 1000;
+    constexpr uint32_t START_GOLD = 100;    
+    
+    GameV2 game(DEADLINE, TARGET_GOLD, START_GOLD);
 
     game.init();
 
